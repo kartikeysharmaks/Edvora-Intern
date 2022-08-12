@@ -11,7 +11,7 @@ const Header = () => {
       </div>
       <div className="mx-10 space-x-5 flex items-center">
         <ShoppingCartIcon className="h-8"/>
-        <UserIcon className="h-8"/>
+        <UserIcon className="h-8" fontSize={8}/>
       </div>
     </div>
   );
